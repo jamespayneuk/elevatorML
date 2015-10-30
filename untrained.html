@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="timings.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="in">
+		<div class="floor" id="inFloor9">
+			<span>Floor 9 : 0</span>
+		</div>
+		<div class="floor" id="inFloor8">
+			<span>Floor 8 : 0</span>
+		</div>
+		<div class="floor" id="inFloor7">
+			<span>Floor 7 : 0</span>
+		</div>
+		<div class="floor" id="inFloor6">
+			<span>Floor 6 : 0</span>
+		</div>
+		<div class="floor" id="inFloor5">
+			<span>Floor 5 : 0</span>
+		</div>
+		<div class="floor" id="inFloor4">
+			<span>Floor 4 : 0</span>
+		</div>
+		<div class="floor" id="inFloor3">
+			<span>Floor 3 : 0</span>
+		</div>
+		<div class="floor" id="inFloor2">
+			<span>Floor 2 : 0</span>
+		</div>
+		<div class="floor" id="inFloor1">
+			<span>Floor 1 : 0</span>
+		</div>
+		<div class="floor" id="inFloor0">
+			<span>Floor 0 : 0</span>
+		</div>
+	</div>
+	<div class="liftShaft">
+		<div id="lift" data-currentfloor="9">
+			<div id="liftCounter">0</div>
+		</div>
+	</div>
+	<div class="out">
+		<div class="floor" id="outFloor9">
+			<div class="personCounter" id="personCounter9">0</div>
+		</div>
+		<div class="floor" id="outFloor8">
+			<div class="personCounter" id="personCounter8">0</div>
+		</div>
+		<div class="floor" id="outFloor7">
+			<div class="personCounter" id="personCounter7">0</div>
+		</div>
+		<div class="floor" id="outFloor6">
+			<div class="personCounter" id="personCounter6">0</div>
+		</div>
+		<div class="floor" id="outFloor5">
+			<div class="personCounter" id="personCounter5">0</div>
+		</div>
+		<div class="floor" id="outFloor4">
+			<div class="personCounter" id="personCounter4">0</div>
+		</div>
+		<div class="floor" id="outFloor3">
+			<div class="personCounter" id="personCounter3">0</div>
+		</div>
+		<div class="floor" id="outFloor2">
+			<div class="personCounter" id="personCounter2">0</div>
+		</div>
+		<div class="floor" id="outFloor1">
+			<div class="personCounter" id="personCounter1">0</div>
+		</div>
+		<div class="floor" id="outFloor0">
+			<div class="personCounter" id="personCounter0">0</div>
+		</div>
+	</div>
+
+	<div id="counter" style="display:none;">0</div>
+
+	<div class="startButton" onclick="stopNow=0;update(parseInt(document.getElementById('counter').innerHTML) + 1);">
+		Start
+	</div>
+	<div id="" class="startButton" onclick="stopNow=1">
+		Pause
+	</div>
+
+<script type="text/javascript">
+	var stopNow = 0;
+</script>
+
+</body>
+</html>
