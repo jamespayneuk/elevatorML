@@ -1,0 +1,74 @@
+.in {
+	width: 30%;
+	float: left;
+}
+
+.out {
+	width: 30%;
+	float: left;
+}
+
+.floor {
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #000;
+	position: relative;
+	overflow: hidden;
+}
+
+.floor span {
+	font-size: 20px;
+	color: #aaa;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.liftShaft {
+	width: 10%;
+	height: 500px;
+	float: left;
+}
+
+#lift {
+	height: 100px;
+	border: 2px solid blue;
+	transition: 50ms all;
+}
+
+#liftCounter {
+	font-size: 40px;
+	color: #aaa;
+	margin-top: 27px;
+	margin-left: 44%;
+}
+
+.person {
+	border: 2px solid green;
+	height: 20px;
+	width: 20px;
+	border-radius: 14px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 5px;
+}
+
+.personCounter {
+	position: absolute;
+	right: 0;
+	font-size: 30px;
+	color: green;
+}
+
+.startButton {
+	border: 1px solid black;
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	padding: 40px;
+}
